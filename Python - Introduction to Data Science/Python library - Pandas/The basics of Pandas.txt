@@ -1,0 +1,21 @@
+#Understanding Data Analysis
+
+Não há somente uma única maneira de representar
+a Data life cycle.
+
+Plan -> Create -> Process -> Analyze -> Preserve ->
+Share -> Reuse -> Plan
+
+###O que é Data Analysis?
+
+Para ter a possibilidade de trabalhar com Data Analysis,
+é preciso se trabalhar com o Pandas.
+
+###Understanding Pandas
+
+- Mais feitos por menos código
+- Criado para ser trabalhado com o Python
+- Um set extenso de features
+- Pode lidar de maneira efetiva com muitos dados
+- Uma boa representação de dados
+- Muitas outras funcionalidades

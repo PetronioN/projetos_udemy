@@ -1,0 +1,9 @@
+Para adicionar o Pandas ao seu projeto Python você precisa
+ter ele instalado no seu editor. 
+
+Para importar se faz o seguinte:
+
+import pandas
+
+#Links úteis
+[PyCharm](https://www.jetbrains.com/pt-br/pycharm/download/#section=windows)

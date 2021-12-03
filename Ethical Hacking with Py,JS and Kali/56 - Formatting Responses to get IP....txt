@@ -1,0 +1,4 @@
+O programa estará no arquivo .py
+
+##Links úteis
+[PyCharm](https://www.jetbrains.com/pt-br/pycharm/download/)
