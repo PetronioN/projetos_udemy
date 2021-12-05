@@ -1,0 +1,16 @@
+O grid system é uma série de 12 colunas de escala
+que contraem e se reposicionam baseadas no tamanho
+dos dispositivos.
+
+<div class="col-lg-6"></div>
+
+col se refere a coluna
+
+lg - For Larger Desktops
+md (Medium) - For Laptops/Desktops
+sm (Small) - For Tablets
+xs (Extra Small) - For Phones
+
+Nós temos uma limitação de 12 colunas como a soma das
+divs.
+

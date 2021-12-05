@@ -1,0 +1,5 @@
+Threee Column layout é tipicamento usado por 
+laptop e desktop screen. Também vai funcionar
+em tablet landscape mode se a resolução da tela
+for maior ou igual a 992px, por exemplo, um Ipad Apple.
+

@@ -1,0 +1,36 @@
+#Introduction
+
+- Um framework que torna o desenvolvimento web
+muito mais eficiente.
+
+- O Framework inclui: HTML & CSS baseados em 
+templates de design para typography, forms, buttons,
+tables, navigation, modals e image carousels.
+
+- Também inclui plugins opcionais do JS.
+
+##Bootstrap
+
+- O desenvolvimento de CSS & HTML costumam ser 
+demorados
+- Criar páginas responsivas do início é um desafio
+
+Com bootstrap:
+
+- Agiliza o processo de desenvolvimento
+- Podemos usar componentes build-in
+- Funções responsiveness, styling e 
+cross-browser já testadas.
+- Open Source Framework
+- Mais popular e largamente usado
+
+##Key Benefits
+
+- Fácil de usar: Qualquer pessoa com conhecimento
+básico de HTML e CSS podem usar o Bootstrap
+- Recursos responsivos: Os layouts do bootstrap
+são ajustados para uma ótima visualização em todos
+os serviços, incluindo telefones, tablets e desktops.
+- Compatibilidade Cross-Browser: Bootstrap é compatível
+com todos os navegadores modernos incluindo (Chrome,
+Firefox, Internet Explorer, Safari e Opera).

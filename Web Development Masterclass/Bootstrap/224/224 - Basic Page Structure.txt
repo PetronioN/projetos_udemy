@@ -1,0 +1,10 @@
+<b>Container Types</b>
+- Fixed Width Container
+- Fluid Container
+Também conhecido como Full width container.
+
+Para adicionar um Fixed Width Container:
+<div class="container"></div>
+
+Para adicionar um Fluid Container:
+<div class="container-fluid"></div>
