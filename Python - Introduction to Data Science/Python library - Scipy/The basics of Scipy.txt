@@ -1,0 +1,20 @@
+SciPy trabalha junto com o NumPy.
+
+##The Basics
+
+O que é Scipy?
+- Library Open source Python
+- Trabalha com NumPy na adição de mais funções
+matemáticas
+- Vem com módulos que são comumente usado em
+tarefas específicas da programação
+
+##SciPy vs NumPy
+
+Qual é a diferença entre SciPy e NumPy
+- Vantagens de usar SciPy
+	- Código aberto
+	- Comandos de nível alto para manipular e
+	visualizar dados
+	- Seções poderosas e interativas com Python
+	- Rápido e fácil
