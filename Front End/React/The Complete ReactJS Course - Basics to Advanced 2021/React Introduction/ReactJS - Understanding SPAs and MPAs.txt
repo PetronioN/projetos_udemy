@@ -1,0 +1,31 @@
+## Single Page Applications (SPAs)
+
+Uma aplicação single-pag é uma app que funciona
+em um navegador e não requer o reload da página
+durante seu uso.
+
+SPAs é sobre apresentar uma outstanding user
+experience(UX) ao tentar imitar um ambiente
+natural no navegador - sem page reload, sem
+tempo extra, apenas uma página HTML que você
+visita e então todo o resto do conteúdo é carregado
+usando o JavaScript.
+
+Por exemplo:
+Gmail, Facebook, Instagram, Trello.
+
+## Multiple Page Application (MPA)
+
+Multi-page applications funcionam de uma maneira
+tradicional. Toda mudança como, apresentar a data ou
+enviar um dado ao servidor, envia um pedido ao servidor
+para renderizar a nova página no navegador.
+
+Sempre que o usuário navega de uma página a outra,
+um pedido é enviado ao servidor para que ele
+envie um novo arquivo HTML para aquela URL. O
+servidor retorna o arquivo e então o arquivo HTML
+é carregado no navegador.
+
+Por exemplo:
+Dribbble, Harvard's Official Site.

@@ -1,0 +1,24 @@
+## Intro to "create-react-app" tool
+
+A create-react-app toll instala todas as 
+libraries e pacotes que são precisos para
+construir uma aplicação React. Ele cria uma
+configuração default para o nosso projeto react.
+Ele também adiciona alguns arquivos iniciais no
+aplicativo recém criado.
+
+## O que é npm e npx?
+
+npm é um gerenciador de pacotes para JavaScript.
+Ele te ajuda a gerenciar todos os pacotes e libraries
+de terceiros que você vai estar instalando na
+sua aplicação. Ele é instalado automaticamente
+quando você instala o NodeJS.
+
+npx é um executor de pacote node. É usado para
+baixar e rodar um pacote temporariamente. 
+
+## Links úteis
+
+<a href="https://github.com/facebook/create-react-app">Create react app - GitHub</a>
+<a href="https://create-react-app.dev/docs/getting-started">Create react app - Docs</a>

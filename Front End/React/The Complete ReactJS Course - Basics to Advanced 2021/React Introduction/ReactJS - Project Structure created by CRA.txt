@@ -1,0 +1,5 @@
+ReactDOM library é usada para manipular o DOM
+do navegador.
+
+<strong>OBS:</strong> mais informações no próximo
+doc.

@@ -1,0 +1,26 @@
+## Introduction to "CSS Modules" Tool
+
+Componentes são modulares e independentes. Havendo
+estilos globais, uma dependência é adicionada entre
+componentes diferentes. Para fazer esses componentes
+realmente independentes nós precisamos também fazer
+classes de estilo com escopo local ao componente.
+
+###### App.css
+
+.Heading {
+	font-size: 24px;
+}
+
+###### CSS
+
+.App_Heading__9b2kaj {
+	font-size: 24px;
+}
+
+###### JavaScript
+
+{
+	Heading:
+"App_Heading__9b2kaj"
+}

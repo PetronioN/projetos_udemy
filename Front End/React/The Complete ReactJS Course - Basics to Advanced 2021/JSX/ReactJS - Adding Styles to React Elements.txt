@@ -1,0 +1,45 @@
+## Styling React Elements
+
+Para adicionar estilos, temos duas opções:
+- Inline Styles
+- External Styles
+
+Você pode adicionar propriedades CSS no seu JSX
+seguindo um exemplo:
+
+<div style= {
+	{
+		margin: '16px',
+		borderRadius: '5px',
+		boxShadow: '0 2px 5px #ccc'
+	}
+}>
+
+No exemplo acima, você pode observar que, as propriedades
+que usavam - como a border-radius, perde o - e fica em
+Camel Case.
+
+Você também pode armazenar essas propriedades em
+uma variável que fica fora da div App:
+
+const styles = {
+	margin: '16px',
+	padding: '16px',
+	boxSizing: 'border-box',
+	borderRadius: '5px',
+	boxShadow: '0 2px 5px #ccc'
+}
+
+Você pode criar um arquivo externo CSS e utilizar
+da mesma maneira que utiliza o CSS e HTML. Se você
+for escrever suas propriedades em um arquivo CSS
+externo, a escrita das propriedades voltam ao normal,
+utilizam novamente o -
+
+Para importar seu arquivo CSS para o seu JSX,
+você digita o seguinte no topo da página:
+
+import './App.css'; 
+
+Lembrando que App é o nome do arquivo e fica a
+seu critério.

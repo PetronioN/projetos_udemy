@@ -1,0 +1,59 @@
+const blogCards = blogArr.map((item) => {
+	console.log(item);
+	
+	return (
+		<div className="BlogCard">
+			<h3>{item.title}</h3>
+			<p>{item.description</p>
+		</div>
+	)
+}
+	return (
+		<div className="App">
+			{blogCards}
+		</div>
+	)
+)}
+
+Da maneira acima, percorremos todo o Array, colocando
+no console.log as suas saídas.
+
+## O que é a propriedade "key"?
+
+Keys ajudam o React a identificar quais itens foram
+alterados, adicionados ou removidos da lista de
+itens gerada dinamicamente.
+Duas coisas para lembrar:
+- Uma key deve identificar apenas um item de uma
+lista entre seus irmãos
+- Uma key deve ser dada aos elementos 
+externos que estão sendo renderizados dentro da 
+lista
+
+const blogCards = blogArr.map((item, pos) => {
+	console.log(item);
+	
+	return (
+		<div className="BlogCard" key={pos}>
+			<h3>{item.title}</h3>
+			<p>{item.description</p>
+		</div>
+	)
+}
+	return (
+		<div className="App">
+			{blogCards}
+		</div>
+	)
+)}
+
+Podemos adicionar uma key da maneira apresentada
+acima ou podemos colocar um id em cada um dos 
+itens da lista e alterar o div:
+
+<div className="BlogCard" key={item.id}></div>
+
+<strong>Obs.:</strong> use id de objetos sempre
+que possível, pois o uso da posição é considerada
+uma má prática ou crie uma função que gera chaves
+únicas para você.

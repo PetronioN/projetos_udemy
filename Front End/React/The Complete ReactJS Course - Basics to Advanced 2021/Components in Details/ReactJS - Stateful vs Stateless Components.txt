@@ -1,0 +1,52 @@
+## Stateful Components
+
+Esses são os componentes WITH state. Eles são
+usados quando você quer adicionar uma funcionalidade.
+
+## Stateless Components
+
+Esses são os componentes WITHOUT state. Eles são
+usados apenas para mostrar algo na tela.
+
+## State of a Component
+
+O state é similar ao props, mas é privado e
+completamente controlado pelo componente.
+
+É um objeto e ele pode conter qualquer tipo de
+valor, como um Number, String, Boolean, Array
+ou Objects.
+Exemplo:
+this.state = {
+	dropdownOpen: true,
+}
+
+## The In-built "Component" Class
+
+Syntax
+
+import { Component } from 'react';
+
+class Dropdown extends Component {
+	//Component Body
+}
+
+<h4><strong>Stateful Components</strong></h4>
+- Também são conhecidos como - Class-based ou
+Container ou Smart components.
+- Tem um state object.
+- Eles acompanham a mudança de um dado através
+do state object.
+
+<h4><strong>Stateless Components</strong></h4>
+- Também são conhecidos como Function-based ou
+Presentational ou Dumb components.
+- Eles não tem um state object.
+- Eles mostram o que está sendo dado a eles
+através do props ou eles ficam renderizando a
+mesma coisa.
+
+Obs.: Você deve manter o número de state components
+o mínimo possível. Isso vai evitar excesso de
+complexidade para você e vai salvar horas de 
+debugging.

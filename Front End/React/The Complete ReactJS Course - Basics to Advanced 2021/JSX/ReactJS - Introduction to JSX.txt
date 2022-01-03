@@ -1,0 +1,36 @@
+## O que é JSX?
+
+<div>
+	<h1>Main Heading</h1>
+	<img src="https://img.ur/9ydjbdx" alt="Mountains" />
+	<p>{imageDescription}</p>
+</div>
+
+JSX é uma syntax extension para o Javascript. Ela
+nos permite definir elementos React usando uma
+sintaxe que é muito similar as utilizadas no HTML.
+Ela é usada para definir o look do UI. Em outras
+palavras, é usada para definir a estrutura dos
+Componentes React.
+
+## HTML vs JSX
+
+Diferente do HTML, a JSX casa a rendering logic
+com outra UI logic como event handling, state
+changing, data displaying etc...
+
+const imageDescription = "Esta montanha é linda!";
+
+<div>
+	<h1>Main Heading</h1>
+	<img src="https://img.ur/9ydjbdx" alt="Mountains" />
+	<p>{imageDescription}</p>
+</div>
+
+<strong>OBS:</strong> você não pode usar for
+no return do App, nem if, mas você pode fazer
+o seguinte:
+
+{
+   mArr[0] > 0 ? "True" : "False"
+}

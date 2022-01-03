@@ -1,0 +1,123 @@
+const blogObj = {
+	title: 'Blog Title 1'
+	description: 'Lorem Ipsum Lorem Ipsu Lorem Ipsum'
+}
+
+return (
+	<div className="App">
+	<div>
+		<h3>{blogObj.title}</h3>
+		<p>{blogObj.description}</p>
+	</div>
+	<hr></hr>
+
+	<div>
+		<h3>{blogObj.title}</h3>
+		<p>{blogObj.description}</p>
+	</div>
+	<hr></hr>
+
+	<div>
+		<h3>{blogObj.title}</h3>
+		<p>{blogObj.description}</p>
+	</div>
+)
+
+## O que acontece por trás do código
+
+Quando você utiliza a tag <strong><div></strong>, o react
+faz o seguinte:
+
+React.createElement("div", null);
+
+É isso que acontece "por trás das cenas". Ele
+cria um elemento que pode ter argumentos,
+no qual o primeiro é o nome do elemento, o
+segundo é a propriedade ou atributos que você
+deu e o restante são os child components. Exemplo:
+
+<strong><i>O que você digita</i></strong>
+<div className="main-div"></div>
+
+<strong><i>O que o React faz</i></strong>
+React.createElement("div", {
+	className: "main-div"
+});
+
+O terceiro parâmentro desse elemento é o child
+components. Exemplo:
+
+<strong><i>O que você digita</i></strong>
+<div className="main-div">
+	<h3></h3>
+</div>
+
+<strong><i>O que o React faz</i></strong>
+React.createElement("div", {
+	className: "main-div"
+}, React.createElement("h3", null));
+
+<strong><i>O que você digita</i></strong>
+<div className="main-div">
+	<h3 className="main-heading">Heading</h3>
+	<p>Para</p>
+</div>
+
+<strong><i>O que o React faz</i></strong>
+React.createElement("div", {
+	className: "main-div"
+}, React.createElement("h3", {
+	className: "main-heading"
+}, "Heading"), React.createElement("p", null, "Para"));
+
+<strong><i>O que você digita</i></strong>
+<div className="App">
+  <div>
+    <h3>{blogObj.title}</h3>
+    <p>{blogObj.description}</p>
+  </div>
+  <hr></hr>
+  
+  <div>
+    <h3>{blogObj.title}</h3>
+    <p>{blogObj.description}</p>
+  </div>
+  <hr></hr>
+  
+  <div>
+    <h3>{blogObj.title}</h3>
+    <p>{blogObj.description}</p>
+  </div>
+</div>
+
+<strong><i>O que o React faz</i></strong>
+React.createElement("div", {
+  className: "App"
+}, React.createElement("div", null, 
+React.createElement("h3", null, blogObj.title), 
+React.createElement("p", null, blogObj.description)), 
+React.createElement("hr", null), 
+React.createElement("div", null, 
+React.createElement("h3", null, blogObj.title), 
+React.createElement("p", null, blogObj.description)), 
+React.createElement("hr", null), 
+React.createElement("div", null, 
+React.createElement("h3", null, blogObj.title), 
+React.createElement("p", null, blogObj.description)));
+
+Se você substituir o primeiro código Js por esse,
+você ainda assim terá o mesmo resultado. O JSX
+é recomendado justamente para diminuir o 
+tamanho do código e deixar ele mais legível.
+
+É importante colocar que, se você digita <div></div>,
+o React irá interpretar o div como um elemento HTML,
+mas se você digitar, por exemplo, <BlogCard></BlogCard>,
+ele não irá lhe retornar um erro, pois ele irá levar
+a tag como uma function custom, ou seja, <strong>usar Camel Case
+em uma tag, vai fazer com que seu React o leve como uma
+function custom.</strong>
+
+<strong>Se você quiser ver como funcionam as tags por trás
+das cenas e até mesmo entender um pouco mais sobre o assunto,
+este link lhe vai ser útil</strong>: <a href="https://babeljs.io/repl#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=false&corejs=3.6&spec=false&loose=false&code_lz=Q&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=env%2Creact%2Cstage-2&prettier=false&targets=&version=7.16.7&externalPlugins=&assumptions=%7B%7D"></a>

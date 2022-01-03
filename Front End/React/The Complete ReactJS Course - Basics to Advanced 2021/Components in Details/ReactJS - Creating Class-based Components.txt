@@ -1,0 +1,78 @@
+Sempre que você for fazer uma classe no React,
+lembre-se de incluir o extends Component:
+
+import React, { Component } from 'react';
+
+class App extends Component {
+}
+
+O React.Component precisa estar presente porque
+ele é basicamente a classe base para os objects
+components.
+
+Nós não podemos ter um return dentro de uma classe,
+mas o Component nos permite utilizar um método
+que vai nos ajudar com essa questão, o render():
+
+import React, { Component } from 'react';
+
+class App extends Component {
+	render() {
+		return(
+			// Conteúdo do return.
+		);
+	}
+}
+
+E por estamos dentro de uma classe, passamos a usar
+a palavra chave this nos métodos:
+
+import React, { Component } from 'react';
+
+class App extends Component {
+	render() {
+		return(
+			<button onClick={this.onHideBtnClick}>Hide List</button>
+		);
+	}
+}
+
+Para adicionar a propriedade de fazer uma lista
+sumir a um botão:
+
+import React, { Component } from 'react';
+
+class App extends Component {
+	
+	showBlogs = true;
+
+	render() {
+		return(
+			<button onClick={this.onHideBtnClick}>Hide List</button>
+			<br></br>
+			{
+			  this.showBlogs ? this.blogCards : null
+			}
+		);
+	}
+}
+
+O Component class nos dá acesso a uma propriedade
+chamada state which que é usada para administrar
+o estado dos nossos componentes. Em qualquer momento,
+o state property armazena o atual estado do nosso
+componente.
+
+Exemplo:
+
+this.state = {
+	showBlogs: true
+}
+
+Também nos dá acesso a um método chamada setState().
+O método setState() é usado para dar um updade no
+estado do objeto e rodar o render do método novamente.
+Ele aceita um novo objeto e sua propriedade é 
+adicionada e/ou atualizada no estado do objeto.
+
+

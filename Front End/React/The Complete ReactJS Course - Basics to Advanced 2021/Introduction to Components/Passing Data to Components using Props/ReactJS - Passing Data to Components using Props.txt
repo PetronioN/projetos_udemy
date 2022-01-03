@@ -1,0 +1,14 @@
+<strong><i>O que você digita:</i></strong>
+<BlogCard title="Blog Title" description="Blog Description"
+coverPice="some-url" />
+
+<strong><i>O que vira:</i></strong>
+React.createElement(BlogCard, {
+	title: "Blog Title",
+	description: "Blog Description",
+	coverPic: "some-url"
+});
+
+Qualquer coisa que nós passamos no BlogCard, vai
+virar um objeto, ou seja, o Babel combina todas as
+propriedades em um objeto.

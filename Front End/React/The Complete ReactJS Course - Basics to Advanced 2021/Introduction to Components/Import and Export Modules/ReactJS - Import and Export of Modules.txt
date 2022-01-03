@@ -1,0 +1,15 @@
+## Modules Exports
+
+Você pode exportar módulos de duas maneiras:
+- Default Export: é usada quando você quer exportar
+apenas um módulo de um arquivo. Em outras palavras,
+um arquivo não pode ter múltiplos default exports.
+Quando estamos trabalhando com default exports podemos
+importar o módulo com qualquer nome que quisermos.
+- Named Export: é usado quando você quer exportar
+múltiplos módulos de um mesmo arquivo.
+
+Quando estamos usando Named Exports, não podemos
+mudar o seu nome, mas há uma maneira de alterar:
+
+import { namedExport as nomeQueVoceQuiser } from './Local';

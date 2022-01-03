@@ -1,0 +1,20 @@
+Todo componente do React deve ter um App componente.
+Este App component, representa um App React e todos
+os outros componentes são colocados dentro dele.
+Isso resulta em uma hirarquia:
+
+App
+	Topbar
+		Logo
+		Menus
+		Avatar
+	AdSection
+	Grid
+		Card
+		Thumbnail
+		Title
+
+- React é usado para design Views;
+- React te dá o total controle de sua aplicação;
+- React pode ser usado em partes de uma web app já
+existente.

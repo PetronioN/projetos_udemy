@@ -1,0 +1,48 @@
+## O que é um Component?
+
+Componente permite a você quebrar a UI em peças
+reutilizáveis.
+
+Um componente é uma class JavaScript ou uma função
+que opcionalmente aceita dados e retorna um React
+elements que descreve como a seção UI deve aparecer.
+
+Existem 2 tipos de componentes:
+- Functional Components.
+- Class-based Components.
+
+#### Novo arquivo chamado BlogCard.js
+
+##### Conteúdo do arquivo
+
+import React from 'react';
+
+const BlogCard = () => {
+	return (
+		<div className="BlogCard">
+			<h3>Blog Title</h3>
+			<p>Blog Description</p>
+		</div>
+	)
+}
+
+## Exportação de módulos
+
+Há duas maneira de exportar um módulo:
+- Default Export - é usado quando nós queremos
+exportar apenas um módulo de um arquivo.
+- Named Export - é usado quando nós queremos
+exportar múltiplos módulos de um mesmo arquivo.
+
+import React from 'react';
+
+const BlogCard = () => {
+	return (
+		<div className="BlogCard">
+			<h3>Blog Title</h3>
+			<p>Blog Description</p>
+		</div>
+	)
+}
+
+export default BlogCard;
