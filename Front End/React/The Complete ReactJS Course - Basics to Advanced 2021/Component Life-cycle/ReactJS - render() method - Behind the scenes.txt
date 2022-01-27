@@ -1,0 +1,15 @@
+## Updating Browser DOM
+
+Toda vez que algo muda na nossa aplicação, o 
+DOM é atualizado e refrete essas mudanças no 
+navegador. Toda vez que um elemento DOM é atualizado,
+suas child nodes também precisam ser re-renderizadas(re-rendering).
+O re-rendering ou re-painting dos elementos UI
+são o que tornam todo o processo lento.
+
+## Virtual DOM
+
+Virtual DOM é uma representação virtual do DOM. 
+Assim como o DOM, o Virtual DOM é uma node tree
+que lista os elementos, seus atributos e seus
+conteúdos como objetos e propriedades.

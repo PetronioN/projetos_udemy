@@ -1,0 +1,20 @@
+## Layer 6: Presentation Layer
+
+Esse layer se concentra no formato atual que o
+dado está. Em outras palavras, estaremos olhando
+para o Data Representation ou Syntax.
+
+- Se certifica de que o dado que está sendo enviado
+para uma aplicação pode ser lido por outra aplicação.
+Garante que o dado pode ser lido pelo sistema receptor.
+- Esse layer formata o dado para que ele seja
+apresentado no application layer.
+- Estrutura o dado.
+- Negocia a sintaxe de transferência do dado para
+a application layer.
+- Pode providenciar encriptação.
+
+
+
+
+

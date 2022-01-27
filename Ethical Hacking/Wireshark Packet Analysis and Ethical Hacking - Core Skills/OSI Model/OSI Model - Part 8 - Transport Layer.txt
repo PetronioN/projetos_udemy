@@ -1,0 +1,57 @@
+## Layer 4: Transport Layer
+
+Se certifica da comunicação End to End, confiabilidade
+e controle de fluxo.
+
+- Executa a message segmentation e divide a
+mensagem em unidades menores. Se as mensagens não
+estiverem pequenas o suficiente, ele passa elas
+para o layer network para o envio. O transport 
+layer ao receber vai remontar a mensagem nesse
+layer.
+- Lida com problemas de transporte entre os hosts.
+- Garante a confiabilidade do transporte do dado.
+
+Os dois principais protocolos desse layer é o
+TCP (Transmission Control Protocol), UDP (User
+Datagram Protocol).
+
+O TCP providencia a confiabilidade.
+- Estabiliza, atualiza e desliga circuitos virtuais
+entre serviços.
+Os end systems vão passar por algo chamado TCP 3-way handshake
+para estabilizar uma conexão entre os sistemas.
+Os pacotes são sequências e se esses pacotes
+estiverem faltando, eles serão retransmitidos.
+
+O UDP não providencia confiabilidade.
+- Se os pacotes forem descartados, eles são perdidos
+e os higher layer protocols da aplicação vão precisar
+se certificar da confiabilidade.
+- Não retransmite pacotes.
+
+- Flow control também está presente no Transport
+Layer. Ele vai administrar a transmissão de dados
+entre os serviços para garantir que essa transmissão
+não está mais enviando dados. Então o dispositivo
+receptor pode entrar em processo.
+- Session Multiplexing também tem seu lugar nesse
+layer. Isso permite o multiplexing de várias
+message streams ou sessões em um logical link.
+
+UDP normalmente é usado para aplicações do tipo
+VoIP, que não requer a transmissão de pacotes.
+
+TCP é como uma ligação. Se eu te passo um número
+de telefone em uma ligação, você pode me retornar
+o número para saber se está correto.
+
+UDP é como uma carta. Você escreve uma informação
+em uma carta, coloca em um envelope e entrega. Eu
+não tenho garantia que a informação vai ser
+entregue a você e não existe confiabilidade.
+
+
+
+
+

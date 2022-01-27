@@ -1,0 +1,12 @@
+Como instalar o pyperclip no Windows:
+
+pip install pyperclip
+
+Link do pyperclip: https://pypi.org/project/pyperclip/
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+## Layer 2: Data Link
+
+- Fornece endereço físico e acesso a mídia.
+- Define como o dado será formatado para transmissão
+e como o acesso a rede é controlado.
+- Um exemplo é o Ethernet:
+	- Utiliza o Mac address:
+		- É utilizado como identificação
+		de um dispositivo.
+		- Tem um tamanho de 48 bits.
+		- Existe algo chamado Organization
+		Unique Identifier (OUI) e ele faz o
+		MAC adress ser único.
+		- Faz parte de uma estrutura de adress 
+		structure.
+- Fornece detecção de erros.
+- Quando você usa uma Ethernet, o dado enviado pela
+rede deve ser formatado de acordo com as regras Ethernet.

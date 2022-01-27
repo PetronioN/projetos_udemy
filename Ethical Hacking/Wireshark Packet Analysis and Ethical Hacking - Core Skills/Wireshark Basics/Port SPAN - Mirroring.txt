@@ -1,0 +1,12 @@
+<strong>SPAN</strong> significa Switch Port Analyzer. Também pode ser chamado de
+monitor.
+
+Você precisa ter acesso ao switch para copiar frames entre interfaces.
+
+Eu não vou conseguir capturar os frames se o tráfego que estou capturando
+vai do cliente ao servidor utilizando um switch.
+
+Com um HUB isso é diferente porque o HUB flui todo o tráfego de todas
+as portas em uma via só.
+
+

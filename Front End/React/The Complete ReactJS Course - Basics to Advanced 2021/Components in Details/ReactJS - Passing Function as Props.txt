@@ -1,0 +1,9 @@
+<button onClick={props.onLikeBtnClick(props.position)}>Like</button>
+
+A situação acima vai renderizar a quantidade de
+BlogCards que tem na sua aplicação.
+
+<button onClick={() => props.onLikeBtnClick(props.position)}>Like</button>
+
+Já a acima só vai renderizar quando você clicar
+no botão.

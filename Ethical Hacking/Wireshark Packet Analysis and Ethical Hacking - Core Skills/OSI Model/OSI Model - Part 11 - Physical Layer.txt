@@ -1,0 +1,8 @@
+## Layer 1: Physical
+
+- Define como o dado é transmitido. Com outras
+palavras, que estado representa 0 ou 1.
+- Define especificações eletricas, mecânicas, 
+processual e funcional para atualizar a manutenção
+ou desativar o link físico.
+- É focado em dispositivos físicos e cabeamento.

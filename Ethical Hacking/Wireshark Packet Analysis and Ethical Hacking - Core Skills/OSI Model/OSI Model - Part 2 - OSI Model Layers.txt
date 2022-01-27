@@ -1,0 +1,33 @@
+## The past and Present
+
+##### Model antigo
+- Proprietário
+- Controlado por apenas um fornecedor
+
+Isso causou muitos problemas, especialmente nas redes, quando nós precisamos
+de muitos dispositivos na rede que precisam se comunicar uns com os
+outros.
+
+Problemas resultados do modelo Proprietary incluem desenvolvimento lento e
+não interoperabilidade entre os fornecedores.
+
+##### Standard based model
+- O modelo OSI foi desenvolvido pela ISO - International Organization for
+Standardization
+- Tem uma abordagem em camadas para o desenvolvimento e a interoperabilidade
+- Permite interoperabilidade de múltiplos fornecedores e um desenvolvimento
+rápido
+
+O OSI Model consiste em 7 layers com vantagens individuais de cada um.
+
+Os Layers do modelo OSI iniciam do topo ou sétimo layer que é a Application,
+seguido por Presentation, Session, Transport, Network, Datalink e Physical.
+
+All People Sleeping Through Networking Don't Pass.
+
+
+
+
+
+
+

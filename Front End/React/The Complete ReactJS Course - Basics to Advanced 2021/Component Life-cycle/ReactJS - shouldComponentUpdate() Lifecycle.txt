@@ -1,0 +1,17 @@
+## Improving Performance by using shouldComponentUpdate()
+
+Para uma melhor performace, evite re-renders
+desnecessários, podemos fazer isso da seguinte maneira:
+
+class Dropdown extends Component {
+	// Component Body
+
+	shouldComponentUpdate(nextProps, nextState) {
+	
+		if(condition) { //Condition to check if re-render required
+			return true;
+		} else {
+			return false;
+		}
+	}
+}

@@ -1,0 +1,15 @@
+## Layer 7: Application Layer
+
+- É o layer que providencia processos de rede para
+aplicações.
+- Providencia acesso para os usuários e processos
+de aplicações para utilizar serviços de rede.
+- FTP e HTTP são usados nesse layer.
+- Providencia serviços de rede para processos de
+aplicação.
+- Identifica parceiros de comunicação.
+- Determina a disponibilidade de um recurso.
+- Providencia autenticação do usuário.
+
+As aplicações que usamos utilizam protocolos para
+se comunicarem com os lower layers do OSI Model.

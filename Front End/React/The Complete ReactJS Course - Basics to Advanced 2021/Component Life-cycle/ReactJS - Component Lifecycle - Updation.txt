@@ -1,0 +1,15 @@
+## Component Lifecycle - Updation
+
+1. Quando um componente é atualizado, o primeiro
+método de callback é o shouldComponentUpdate(nextProps, nextState).
+Esse método retorna um valor booleano, que decide
+se o componente deve ser atualizado ou não. Por 
+default, ele retorna true.
+2. Quando é true, o método render() é chamado.
+3. Renderiza os Child Components.
+4. Quando os Child Components são atualizados, o
+React chama o seu último callback, que é o 
+componentDidUpdate(). Esse é o estágio onde nós
+podemos fazer solicitações de API para buscar
+dados do backend.
+

@@ -1,0 +1,39 @@
+## Host Communication
+
+Eu tenho 2 hosts, o host A e o B, os dados entre
+a rede devem passar por um Process of Conversion
+em ambos os disposivos, isso normalmente é conhecido
+como Encapsulation e D encapsulation.
+
+Layer 1 se comunica com Layer 1, Layer 7 se comunica
+com Layer 7 e é assim com todos os Layers.
+
+Quando o remetente quer transmitir um dado...utilizando
+um exemplo:
+
+Digamos que seu computador está abrindo uma página
+WEB, seu computador vai enviar alguma informação
+e essa informação passa por todos os 7 layers.
+
+No Layer 7 do OSI Model, o dado é encapsulado com
+o Layer 7 Header. Por sua vez, será encapsulado
+com o L6 Hdr no Presentation Layer, depois com o
+L5 Header e a continuação está no gráfico abaixo.
+
+User Data
+User Data L7 Hdr
+User Data L7 Hdr L6 Hdr
+User Data L7 Hdr L6 Hdr L5 Hdr
+User Data L7 Hdr L6 Hdr L5 Hdr L4 Hdr
+User Data L7 Hdr L6 Hdr L5 Hdr L4 Hdr L3 Hdr
+User Data L7 Hdr L6 Hdr L5 Hdr L4 Hdr L3 Hdr L2 Hdr | FCS
+Bits
+
+Quando chega no Layer 2, um Frame Check Sequence (FCS) é
+adicionado ao dado. O FCS se certifica que o dado não esteja
+corrompido quando for enviado do remetente para o
+destinatário.
+
+Por fim, o dado é transmitido através da mídia física como
+bits, em outras palavras, como zeros e ums.
+

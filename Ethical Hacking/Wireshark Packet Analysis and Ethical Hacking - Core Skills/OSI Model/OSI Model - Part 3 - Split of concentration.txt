@@ -1,0 +1,5 @@
+Do sétimo ao quinto layer do OSI Model são focados
+em desenvolvedores ou administradores de servidores.
+
+Os outros layers são de domínio do engenheiro de
+rede.

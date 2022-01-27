@@ -1,0 +1,26 @@
+Para instalar o pynput no Windows:
+
+pip install pynput
+
+Pynput link: https://pynput.readthedocs.io/en/latest/
+
+Se o que você digitar estiver com o tipo "Keycode", é
+um tipo alfabetico, se for uma "Key", é uma
+control statement.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

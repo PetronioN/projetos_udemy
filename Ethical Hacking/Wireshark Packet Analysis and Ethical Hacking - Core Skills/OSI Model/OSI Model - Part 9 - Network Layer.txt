@@ -1,0 +1,24 @@
+## Layer 3 - Network Layer
+
+- Esse layer é completamente sobre Data Delivery,
+onde os roteadores tratam os pacotes de dados
+de um serviço para o outro.
+- Layer 3 switches: 
+	- tem recursos de roteadores então eles 
+	podem rotear pacotes entre VLANs e uma rede.
+	- Eles selecionam o melhor path para entregar
+	um dado, baseado em protocolos de escrita
+	como OSPF - Open Shortest Path First - ou
+	BGP - Border Gateway Protocol - ou ISIS -
+	Intermediate System-to-Intermediate System.
+	- Layer 3 switches determinam o melhor path
+	de rota baseado em critérios como: cost,
+	hop count, bandwith, longest match of network
+	adress.
+	- IP não combina com confiabilidade e depende
+	dos layers que estão acima como TCP para
+	fornecer confiabilidade, se o UDP for o usado,
+	o application layer precisará providenciar
+	a confiabilidade se for requerida.
+- Fornece determinação de rota e endereço lógico.
+

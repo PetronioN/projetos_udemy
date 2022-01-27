@@ -1,0 +1,14 @@
+## OSI Model - Open Systems Interconnection Model
+
+É um bloco de construção crítico para que você entenda redes.
+
+- Why the OSI Model?
+- Layers of the OSI Model
+- How traffic flows between hosts
+- Sniff the wire using wireshark
+
+## Host Communication
+
+O OSI Model é frequentemente usado para explicar a comunicação entre
+dispositivos em uma rede. Ele torna questões específicas sobre serviços
+como roteadores ou switches mais fáceis para engenheiros de rede.

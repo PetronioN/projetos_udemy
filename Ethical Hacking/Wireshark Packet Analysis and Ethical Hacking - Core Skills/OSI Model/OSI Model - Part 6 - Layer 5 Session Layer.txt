@@ -1,0 +1,14 @@
+## Layer 5: Session Layer
+
+O session layer se concentra na interest
+communication.
+- Esse layer está envolvido no estabelecimento,
+manutenção e no fim das sessões entre as
+aplicações.
+- Dois processos de aplicação em máquinas diferentes
+estabilizam uma sessão entre elas.
+
+Ex.: 	NetBIOS (Network Basic Input/Output System)
+	PPTP (Point-to-Point Tunneling Protocol)
+
+

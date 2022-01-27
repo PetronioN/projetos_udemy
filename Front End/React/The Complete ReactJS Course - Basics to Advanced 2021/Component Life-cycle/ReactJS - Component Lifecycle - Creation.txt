@@ -1,0 +1,54 @@
+Initialization → Mounting → Updation → Unmounting
+
+#### Initialization
+
+É o estágio onde o component inicia sua jornada
+setando o estado e o props.
+
+O processo de inicialização é feito dentro do
+construtor.
+
+#### Mounting
+
+É o estágio onde o componente é criado e inserido
+no browser DOM.
+
+Esse estágio vem logo após o estágio de inicialização
+estar completo.
+
+Esse é o estágio onde a função render() é chamada
+pela primeira vez.
+
+#### Updation
+
+É o estágio onde o componente é re-renderizado
+devido a mudanças no estado e/ou props.
+
+#### Unmounting
+
+É o estágio onde o componente é desmontado ou
+removido do browser DOM.
+
+Isso acontece automaticamente quando a tab do
+navegador é fechada ou o route é mudado devido
+a resultados na montagem de diferentes componentes.
+
+## Lifecycle Methods
+
+Esses métodos de ciclo de vida estão disponíveis
+apenas em componentes baseados em classes, mas
+nós também podemos adicionar lifecycle hooks e
+funções baseadas em complementos usando características
+providenciadas pelo React.
+
+1. Quando o componente é criado, o construtor é
+chamado. Um construtor pode ser usado para setar
+um estado ou props para um componente.
+2. Quando o método render() é chamado, ele
+renderiza todos os child components daquele componente.
+3. Renderização de child Components.
+4. Quando tudo é renderizado, o React chama o
+componentDidMount() que faz requests HTTP.
+
+A sequência de renderização de uma página web
+é essa.
